@@ -1,0 +1,176 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #44028f;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #860303; /* Change to black */
+    border: none;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.card-header {
+    background-color: #0ae4ad; /* Change to black */
+    border-bottom: none;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.section-title {
+    text-align: center;
+    color: #37015a;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.btn-permanent {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.card-space {
+    margin-top: 20px;
+}
+
+header {
+    background: #43b7fa;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+p, li {
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+li:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffaa00;
+}
+
+.nav-logo img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffaa00;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    background-color: #ffaa00;
+}
